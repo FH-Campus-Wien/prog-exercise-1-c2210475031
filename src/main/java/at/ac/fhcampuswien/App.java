@@ -30,6 +30,15 @@ public class App {
         char a='Z';
         int b=0xface; //Hexadecimal geschriebener int
         int c = 012; // Octalzahl
+        long d = 80L;
+        float e = 44e-1f;
+        float f = 5.5f;
+        double g = 8.88e1;
+        double h = 99.9;
+
+        int sum;
+        sum = Integer.valueOf(a) + b+c+(int)d+(int)e+(int)f+(int)g+(int)h;
+        System.out.println(sum);
         // input your solution here
     }
 
